@@ -38,7 +38,7 @@ nav {
     top: 300px;    
 }
 
-a{
+a.nav{
     display: block;
     margin: 80px;
 }
