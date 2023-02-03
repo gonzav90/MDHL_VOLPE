@@ -11,6 +11,7 @@ header {
     background-repeat: no-repeat;
 }
 
+
 h1{
     text-align: center;   
     font-size: 3rem;
@@ -23,7 +24,9 @@ h1{
     
 }
 
-h2.titulo {      
+h2.titulo {     
+    
+        
     font-size: 3rem;
     color: rgb(248, 225, 46);
     text-align: center;
@@ -49,8 +52,8 @@ a.nav{
     background-color: yellow;
     text-decoration: none;
     color: black;
-    padding: 12px;
-    margin: 10px 10px;
+    padding:4px;
+    margin: 4px 4px;
     border: 1px solid black;
     box-shadow: 1px 1px 5px black;
    
@@ -61,19 +64,49 @@ a.nav.pag-actual{
     background-color:orange;
 }
 
-.texto{
-    position: relative;
-    margin: 50px;
-    
+img{
+    margin: 30px;
+    width: 600px;
 }
 
-.texto.rules{
-    display: flex;
-    flex-direction: column;
+.texto{
+    position: absolute;
+    top: 450px;
+    left: 650px;
+    font-size: large;    
 }
-.ne-ma{
-    text-transform: uppercase;
-    font-weight: bold;
+
+div{
+    margin: 30px;
 }
+
+p{
+    margin: 10px;
+}
+.neg{
+    font-weight: bold;   
+}
+
+.may{
+    text-transform: uppercase;   
+}
+
+ul,ol{
+  padding-left: 30px;  
+}
+
+.abc{
+   list-style-type: upper-latin;
+}
+
+table {
+    width: 100%;    
+ }
+ th, td {
+    width: 25%;
+    text-align: center;    
+    padding: 10px;    
+ }
+
 
 
